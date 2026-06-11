@@ -1,0 +1,23 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.uv-cache/
+
+# Experiment outputs
+runs/**
+!runs/.gitkeep
+!runs/*/.gitkeep
+results/**
+!results/.gitkeep
+!results/*/.gitkeep
+checkpoints/**
+!checkpoints/.gitkeep
+!checkpoints/*/.gitkeep
+
+# Local env
+.env
+.env.*

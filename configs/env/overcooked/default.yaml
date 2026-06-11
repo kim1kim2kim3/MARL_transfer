@@ -1,0 +1,13 @@
+env_id: overcooked
+backend: jaxmarl
+variant: classic
+num_agents: 2
+action_space:
+  type: discrete
+  n: 6
+observation:
+  type: fully_observable_grid
+  channels: 26
+recipe: onion_soup
+max_steps: 400
+random_reset: false

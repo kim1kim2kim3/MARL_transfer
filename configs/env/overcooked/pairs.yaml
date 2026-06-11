@@ -1,0 +1,26 @@
+pairs:
+  pair_a:
+    source_layout: forced_coordination
+    target_layout: forced_coordination_reversed
+    main_mismatch: same task structure with reversed agent-role assignment
+    failure_mode: role identity lock-in
+  pair_b:
+    source_layout: forced_coordination
+    target_layout: coordination_ring
+    main_mismatch: fixed spatial role versus ring movement coordination
+    failure_mode: handoff/fixed-role prior delays movement convention discovery
+  pair_c:
+    source_layout: forced_coordination
+    target_layout: open_parallel_room
+    main_mismatch: handoff-based cooperation versus parallel independent cooking
+    failure_mode: source handoff habit suppresses target parallelism
+  pair_d:
+    source_layout: bottleneck
+    target_layout: wide_bottleneck
+    main_mismatch: narrow-passage waiting versus open-passage simultaneous movement
+    failure_mode: waiting/yielding convention becomes unnecessary delay
+  pair_e:
+    source_layout: coordination_ring
+    target_layout: counter_circuit_o_1order
+    main_mismatch: circular movement convention versus counter/station coordination
+    failure_mode: movement route prior delays efficient station/counter sequencing
